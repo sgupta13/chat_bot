@@ -1,0 +1,713 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "what can you do?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "show me the name of chair-person of CS department",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "name of chair-person",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "current chair-person of CS department",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 37,
+            "value": "chair-person of CS department",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "who should I meet if I want to meet machine learning's professor",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 36,
+            "end": 64,
+            "value": "machine learning's professor",
+            "entity": "professor"
+          }
+        ]
+      },
+      {
+        "text": "who is machine learning's teacher",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "machine learning's teacher",
+            "entity": "professor"
+          }
+        ]
+      },
+      {
+        "text": "who teaches machine learning",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 4,
+            "end": 28,
+            "value": "teaches machine learning",
+            "entity": "professor"
+          }
+        ]
+      },
+      {
+        "text": "machine learning's professor",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "machine learning's professor",
+            "entity": "professor"
+          }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "who is current chair person of CS department",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "chair person",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "chair-person of CS department",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "chair-person of CS department",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "current CS chair-person",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "current CS chair-person",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "chair-person of Computer Science department",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "chair-person of Computer Science department",
+            "entity": "chair-person"
+          }
+        ]
+      },
+      {
+        "text": "GSU location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "GSU location",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "where is GSU located",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "where is GSU",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me GSU location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "GSU location",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "may I know GSU Location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "GSU Location",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Could you please tell me GSU location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "GSU location",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "where is cs dept located",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "cs dept located",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "what is cs department location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 30,
+            "value": "cs department location",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "show me cs department location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 30,
+            "value": "cs department location",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "may I know cs department location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 33,
+            "value": "cs department location",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "may I know where cs department is located",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 41,
+            "value": "cs department is located",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "what is GSU area?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "GSU area",
+            "entity": "area"
+          }
+        ]
+      },
+      {
+        "text": "how large is GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "how large is GSU",
+            "entity": "area"
+          }
+        ]
+      },
+      {
+        "text": "tell me about GSU area",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "GSU area",
+            "entity": "area"
+          }
+        ]
+      },
+      {
+        "text": "how big is GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "how big is GSU",
+            "entity": "area"
+          }
+        ]
+      },
+      {
+        "text": "may I know GSU area",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "GSU area",
+            "entity": "area"
+          }
+        ]
+      },
+      {
+        "text": "what type of university is GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "type of university",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "Is GSU public or private university",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "public or private",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "can you tell if GSU is public",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "GSU is public",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "can you tell if GSU is private",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "GSU is private",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "may I know if GSU is private or public",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 38,
+            "value": "GSU is private or public",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "How much it cost to attend GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "cost to attend",
+            "entity": "cost"
+          }
+        ]
+      },
+      {
+        "text": "what is the cost of attendance",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "cost of attendance",
+            "entity": "cost"
+          }
+        ]
+      },
+      {
+        "text": "how much it costs to attend GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "costs",
+            "entity": "cost"
+          }
+        ]
+      },
+      {
+        "text": "how much I need to pay to attend GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "pay",
+            "entity": "cost"
+          }
+        ]
+      },
+      {
+        "text": "how much money I need to pay to attend GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "money",
+            "entity": "cost"
+          }
+        ]
+      },
+      {
+        "text": "could you please name some departments in GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "departments",
+            "entity": "departments"
+          }
+        ]
+      },
+      {
+        "text": "tell me the names of departments at GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "departments",
+            "entity": "departments"
+          }
+        ]
+      },
+      {
+        "text": "what are the different departments in GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "departments",
+            "entity": "departments"
+          }
+        ]
+      },
+      {
+        "text": "may I know the departments at GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "departments",
+            "entity": "departments"
+          }
+        ]
+      },
+      {
+        "text": "name some of the departments at GSU",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "departments",
+            "entity": "departments"
+          }
+        ]
+      },
+      {
+        "text": "where is GSU located?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "GSU located?",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is GSU location?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "GSU location?",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me GSU location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "GSU location",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "where is GSU located",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "GSU located",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "where is CS department located",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 9,
+            "end": 30,
+            "value": "CS department located",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "what is CS department location",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 30,
+            "value": "CS department location",
+            "entity": "cs-location"
+          }
+        ]
+      },
+      {
+        "text": "what is gsu?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "what is gsu",
+            "entity": "gsu-intro"
+          }
+        ]
+      },
+      {
+        "text": "what is georgia state university?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "what is georgia state university",
+            "entity": "gsu-intro"
+          }
+        ]
+      },
+      {
+        "text": "What is GSU?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "What is GSU",
+            "entity": "gsu-intro"
+          }
+        ]
+      },
+      {
+        "text": "What is Georgia State University?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "What is Georgia State University",
+            "entity": "gsu-intro"
+          }
+        ]
+      },
+      {
+        "text": "what is meant by gsu?",
+        "intent": "gsu-info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "what is meant by gsu",
+            "entity": "gsu-intro"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+/*giving attributes to the text in the chat body*/
+
+.chat_window {
+  margin-left: 50%;
+  height: calc(100% - 250px);
+  width: calc(100% - 20px);
+  height: 600px;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+  height: -250px;
+  position: relative;
+  padding: 20px 10px 0 10px;
+  height: 70%;
+  overflow: scroll;
+}
+
+.messages .message {
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.messages .message.left .avatar {
+  background-color: #f5886e;
+  float: left;
+}
+.messages .message.left .textwrapper {
+  background-color: #ffe6cb;
+  margin-left: 20px;
+}
+.messages .message.left .textwrapper::after, .messages .message.left .textwrapper::before {
+  right: 100%;
+  border-right-color: #ffe6cb;
+}
+
+.messages .message.right .avatar {
+  background-color: #83c48e;
+  float: right;
+}
+
+.messages .message.right .textwrapper {
+  background-color: #eafcc7;
+  margin-right: 20px;
+  float: right;
+}
+.messages .message.right .textwrapper::after, .messages .message.right .textwrapper::before {
+  left: 100%;
+  border-left-color: #eafcc7;
+}
+
+.messages .message.appeared {
+  opacity: 1;
+}
+
+.messages .message .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.messages .message .textwrapper {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(100% - 85px);
+  min-width: 100px;
+  position: relative;
+}
+
+.messages .message .textwrapper .text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.bottomwrapper .sendbutton:hover {
+  color: #ceeda3;
+  background-color: #D9DCCF;
+}
+
+.bottomwrapper .sendbutton .text
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bottomwrapper {
+  position: relative;
+  background-color: #fff;
+  padding: 20px 20px;
+}
+
+.bottomwrapper .msg_in_wrapper {
+  display: inline-block;
+  height: 50px;
+  border-radius: 50px;
+  border: 3px solid #8c8e91;
+  width: calc(100% - 160px);
+  position: relative;
+  padding: 0 20px;
+}
+
+.bottomwrapper .msg_in_wrapper .msginput {
+  border: none;
+  height: 100%;
+  width: calc(100% - 40px);
+  position: absolute;
+}
+
+.bottomwrapper .sendbutton {
+  width: 130px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #b4db7d;
+  text-align: center;
+  float: right;
+}
+
