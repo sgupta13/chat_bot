@@ -27,7 +27,7 @@ def chat():
         topresponse = response["topScoringIntent"]
         intent = topresponse.get("intent")
         if(len(entities)==0 and intent == "gsu-info"):
-           clientwolfram = wolframalpha.Client('E2HAQT-YL96RHPLKR')
+           clientwolfram = wolframalpha.Client('********')
            res = clientwolfram.query(user_message)
            if user_message.find("where") != -1:
               for key,val in next(res.results).items():
